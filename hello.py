@@ -1,4 +1,4 @@
-print("Hello Opening GIT Master") 
+print("Hello Opening Public GIT Master") 
 checks = ["Access", "Reach", "Authenticated", "Data Provided"]
 for x in checks:
   print(x) 
