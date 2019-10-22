@@ -1,2 +1,2 @@
-print("Hello Open GIT Master");
-print("Hello Open GIT Branch New");
+print("Hello Open GIT Master")
+print("Hello Open GIT Branch New")
