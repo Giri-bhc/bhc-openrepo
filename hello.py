@@ -2,5 +2,5 @@ import clr
 clr.AddReference("System.Net")
 clr.AddReference("Scripting")
 
-test = F.Attributes.GetByName('SOL_NeedMaX')
+test = Product.Attr('SOL_NeedMaX').GetValue()
 
