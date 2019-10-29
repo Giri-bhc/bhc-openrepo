@@ -5,7 +5,7 @@ from System.Net import CookieContainer
 from System.Net import Cookie
 from System.Net import WebRequest
 from System.Net import HttpWebResponse
-from Scripting import Product
+import Scripting
 
-test = Product.Attr('SOL_NeedMaX').GetValue()
+test = Scripting.Product.Attr('SOL_NeedMaX').GetValue()
 
