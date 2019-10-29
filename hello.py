@@ -4,8 +4,9 @@ from System.Net import CookieContainer
 from System.Net import Cookie
 from System.Net import WebRequest
 from System.Net import HttpWebResponse
+from System.Diagnostics import Trace
 
-Debug.Log("Hello, world")
+Trace.Write("Hello, world")
 for x in range(1,5):
-  Debug.Log(x)
-Debug.Log("Success")
+  Trace.Write(x)
+Trace.Write("Success")
