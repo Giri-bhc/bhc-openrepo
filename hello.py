@@ -6,8 +6,8 @@ from System.Net import WebRequest
 from System.Net import HttpWebResponse
 from System.Diagnostics import Trace
 
-Trace.Write("Hello, world")
+Trace.Log("Hello, world")
 a = 0
 for x in range(1,5):
   a = a + 1
-Trace.Write("Success")
+Trace.Log("Success")
