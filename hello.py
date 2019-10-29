@@ -5,7 +5,7 @@ from System.Net import Cookie
 from System.Net import WebRequest
 from System.Net import HttpWebResponse
 
-Trace.Write("Hello, world")
+Debug.Log("Hello, world")
 for x in range(1,5):
-  Trace.Write(x)
-Trace.Write("Success")
+  Debug.Log(x)
+Debug.Log("Success")
