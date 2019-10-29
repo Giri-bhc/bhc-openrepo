@@ -7,6 +7,7 @@ from System.Net import HttpWebResponse
 from System.Diagnostics import Trace
 
 Trace.Write("Hello, world")
+a = 0
 for x in range(1,5):
-  Trace.Write(x)
+  a = a + 1
 Trace.Write("Success")
