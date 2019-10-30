@@ -1,3 +1,2 @@
-from IProduct import Product
-test = Product.Attr('SOL_NeedMaX').GetValue()
+test = Scripting.Product.Attr('SOL_NeedMaX').GetValue()
 
