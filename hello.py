@@ -1,1 +1,1 @@
-test = Scripting.Product.Attr('SOL_NeedMaX').GetValue()
+test = Product.Attr('SOL_NeedMaX').GetValue()
