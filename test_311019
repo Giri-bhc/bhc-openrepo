@@ -1,0 +1,1 @@
+Product.Attributes.GetByName('test_311019').AssignValue('test_311019')
